@@ -1,0 +1,68 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+
+        <div class="caption-dtl text-center align-items-center">
+                    <img class='dtl' src="{{asset('pictures/' ~ event.photo )}}">
+          <h1 class="wwkin text-center">{{event.eventsName}}</h1>
+        </div>
+        
+
+    <div class="container">   
+        <div class='row text-left justify-content-center'>
+            <div class='nsl'></div> 
+            <div class='col-4 nsl'>
+                <p class='dit'> 
+                    Date: {{event.date|date()}} </a>
+                </p>
+                <p class='dit'>   
+                    Capacity: {{event.capacity}} 
+                </p>
+                <p class='dit'> 
+                    Type: {{event.type}} 
+                </p>
+                <p class='dit'> 
+                    City: {{event.city}}
+                </p>
+            </div>
+            <div class='col-4 nsl'>
+                <p class='dit'>
+                    {{event.description}}
+                </p>
+            </div>  
+
+            <div class='col-12 text-center nsl'>
+                <h3>Here you can contact us</h3>
+                <p class='dit'> 
+                   Address: {{event.address}} {{event.zip}}</br>
+                   Email: {{event.email}}</br>
+                   Phone: {{event.phoneNumber}}</br>
+                   
+                </p>
+                
+            </div>  
+
+
+            
+            
+        </div>
+
+        <div class='row text-center justify-content-center'>
+            <div class='col-12'>
+                <a href='/edit/{{event.eventId}}'><button class='button' type='button'>Edit</button></a>
+                <a href='/delete/{{event.eventId}}'><button class='button button2' type='button'>Delete</button></a>
+ 
+            </div>
+        </div>
+        
+    
+    
+    </div>
+
+
+
+
+
+   <hr>
+   
+{% endblock %}

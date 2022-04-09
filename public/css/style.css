@@ -1,0 +1,230 @@
+* {
+    max-width: 100%;  
+}
+
+.caption {
+    background-image: url("../pictures/top.jpeg");
+    width: 100% auto;
+    height: 40rem;
+    max-width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.caption h1 {
+    text-transform: uppercase;
+    color: rgb(253, 5, 232);
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem rgb(255, 1, 242);
+    font-family: 'Permanent Marker', cursive;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+
+.shdw {
+    height: 13rem;
+    position: relative;
+    top: -13rem;
+    background-image: linear-gradient(180deg, transparent,  white);
+}
+
+
+.zul {
+    background-color: rgb(0, 0, 0);
+}  
+
+.nav-link { 
+    color: rgb(144, 125, 248);
+}
+
+.bored {
+    position: relative;
+    font-size: 3.5rem;
+    top: -18rem;
+    text-shadow: .1rem .1rem .8rem rgb(255, 1, 242);
+}
+
+.ev {
+    position: relative;
+    font-size: 3rem;
+    color: violet;
+    top: -8rem;
+}
+
+
+.boox {
+    width: 400px;
+    height: 200px;
+}
+
+.im-size {
+    width: 400px;
+    height: 200px;
+    border-radius: 0 20px;
+    border: solid 1px rgba(241, 0, 0, 0);
+    box-shadow: 2px 5px 5px violet;
+    padding: 0.2rem;
+    background-size: cover;
+}
+
+
+.nsl {
+    padding-bottom: 2rem;
+}
+
+
+.eddt, .eddt:hover {
+    color: rgb(194, 32, 132);
+  text-decoration: none;
+}
+
+.nsl2 {
+    padding-top: 2rem;
+}
+
+.inft {
+    color: rgb(172, 170, 170);
+}
+
+
+
+
+
+
+.dimgboox {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.dimg {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    border: solid 1px rgb(241, 0, 0);
+    box-shadow: .1rem .1rem .8rem rgb(0, 0, 0);
+    padding: 0.2rem;
+    background-size: cover;
+}
+
+
+.ditimg {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    border: solid 1px rgb(241, 0, 0);
+    box-shadow: .1rem .1rem .8rem rgb(255, 255, 255);
+    padding: 0.2rem;
+    background-size: cover;
+}
+
+
+
+.button {
+    background-color: rgb(0, 0, 255); 
+    border: none;
+    color: bisque;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: rgb(255, 0, 0);
+}
+  
+
+.pok {
+    max-height: 0;
+    overflow: hidden;
+    max-width: 80%;
+    transition: max-height 0.2s ease-out;
+    margin-left: 13rem;
+    color: brown;
+}
+
+.link2 {
+    max-width: 80%;
+    color: chartreuse;
+    text-decoration: none;
+}
+
+.bored_flt {
+    position: relative;
+    font-size: 3.5rem;
+    top: -10rem;
+    text-shadow: .1rem .1rem .8rem rgb(255, 1, 242);
+}
+
+.shdw_flt {
+    height: 13rem;
+    position: relative;
+    background-image: linear-gradient(0deg, transparent,  rgb(196, 45, 226));
+}
+
+.shdw_dnc {
+    height: 13rem;
+    position: relative;
+    background-image: linear-gradient(0deg, transparent,  rgb(48, 45, 226));
+}
+
+
+
+.caption-dtl {
+    width: 100% auto;
+    height: 90vh;
+    max-width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(50deg, transparent,  rgb(245, 30, 209));
+}
+
+.caption-dtl h1 {
+    text-transform: uppercase;
+    color: rgb(253, 5, 232);
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem rgb(255, 1, 242);
+    font-family: 'Permanent Marker', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+.dtl {
+    width: 100% auto;
+    height: 90vh;
+    max-width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.dit{
+    font-size: 1.3rem;
+    text-decoration: none;
+}

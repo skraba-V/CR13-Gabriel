@@ -1,0 +1,68 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}Jungle{% endblock %}
+
+{% block body %}
+  
+  <div class="caption text-center align-items-center">
+    <h1 class="wwkin text-center">Welcome to the Jungle</h1>
+  </div>
+  <div class="shdw"></div>
+  <h1 class="text-center bored">If you are bored at home, </br> find something for yourself</h1>
+
+  <h1 class="text-center ev">Events</h1>
+  
+  <div class="container row">
+    <button type="button" class="collapsible col-12 button">Type</button>
+    <div class="pok">
+      <button type="button" class="col-3 button">
+        <a class="link2" href="music">Music</a>
+      </button>
+      <button type="button" class="col-3 button">
+        <a class="link2" href="dance">Dance</a>
+      </button>
+      <button type="button" class="col-3 button">
+        <a class="link2" href="conferences">Conferences</a>
+      </button>
+    </div>
+  </div>
+
+
+
+  <div id="items">
+
+    <div class="row text-center dit justify-content-center">
+
+        <div class="col-lg-12 row justify-content-center">
+            {% for event in events %} 
+
+                <div class='container col-lg-4 col-md-6 col-sm-12 nsl justify-content-center'>
+                    <div class='boox col-12 '>
+                        <a href="/details/{{event.eventId}}" class="btn eddt">
+                            <img class="im-size"  src="{{asset('pictures/' ~ event.photo )}}">
+                        </a> 
+                    </div>
+
+                    <div class='nsl2'>
+                        <a href="/details/{{event.eventId}}" class="btn eddt">
+                            <h4>{{event.eventsName}}</h4>
+                            <h4 class="inft">{{event.type}}</h4>
+                            <h6 class="inft">{{event.date|date()}}</h6> 
+                        </a> 
+                    </div>
+                </div>
+
+            {% endfor %}
+        </div>
+      
+      
+
+    </div>
+
+  </div>
+
+
+   
+   
+{% endblock %}
